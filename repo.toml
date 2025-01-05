@@ -81,8 +81,7 @@ publish_pip_cache = false
 
 [repo_precache_exts]
 # Apps to run and precache
-apps = [
-]
+apps = ["${root}/source/apps/ff.virtual_site.kit", "${root}/source/apps/ff.virtual_site_streaming.kit", "${root}/source/apps/ff.virtual_site_ovc.kit"]
 
 registries = [
 # PUBLIC REGISTRIES - UNCOMMENT BEFORE STAGING TO GITHUB
